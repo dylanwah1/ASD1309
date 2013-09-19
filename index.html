@@ -1,0 +1,135 @@
+<!doctype html>
+//Dylan Romeo Wahlstrom
+//1305
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Game Organizer</title>
+
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" />
+	<link rel="stylesheet" href="css/styles.css"/>
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+
+
+<body>
+    <div data-role="page" id="itourstart">
+        <div data-role="header" data-position="fixed" data-theme="a"></div>
+        <div data-theme="a">
+            <div data-role="content"> <a href="#homeitour">
+                    <div style=" text-align:center">
+                        <img style="width: 288px; height: 300px" src="http://i45.tinypic.com/2zo8xnl.jpg" />
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="homeitour" data-add-back-btn="true">
+        <div data-role="header" data-position="fixed" data-theme="a">
+             <h1>iTour</h1>
+
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#homeitour" data-icon="home" data-theme="a" class="ui-btn-active ui-state-persist">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <data-role="content" id="dataContent">
+	<a href="#addTour" data-role="button" id="addTours">Add New Tour</a>
+	<a href="#tourList" data-role="button" id="viewTours">View Saved Tours</a>
+	<a href="#cleardata" data-role="button" id="clearData">Clear Local Storage</a>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <div data-role="page" id="addTour" data-add-back-btn="true">
+        <div data-role="header" data-position="fixed" data-theme="a">
+             <h1>iTour</h1>
+
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <div data-role="navbar" data-position="fixed">
+                    <ul>
+                        <li><a href="#homeitour" data-transition="flip" data-icon="home" data-theme="a">Home</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="content">
+            <form action="" id="tourForm">
+                <div class="form">
+		    <input type="hidden" id="key" value="" />
+                    <div data-role="fieldcontain">
+                        <label for="tName">Tour Name:</label>
+                        <input type="text" name="tName" id="tName" value="" placeholder="Enter Tour Name" class="required">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="sDate">Start Date:</label>
+                        <input type="Date" name="sDate" id="sDate" value="" placeholder="Enter Start Date" class="required">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="eDate">End Date:</label>
+                        <input type="Date" name="eDate" id="eDate" value="" placeholder="Enter End Date" class="required">
+                    </div>
+                    <div>
+                        <input type="submit" value="Add Tour" id="saveTourButton">
+                        <input type="reset" value="Reset">
+                    </div>
+		    
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-role="page" id="tourList">
+        <div data-role="header" data-position="fixed">
+            <h1>iTour</h1>
+        </div>
+        <div data-role="content">
+            <div id="tourSelect" data-role="listview" data-filter="true"></div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#homeitour" data-transition="flip" data-icon="home" data-theme="a">Home</a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+	<!-- JavaScript under here -->
+	
+
+	    
+
+        <script type = "text/javascript" src = "js/jquery-2.0.2.min.js"></script>
+	<script type = "text/javascript" src = "js/jquery.mobile-1.3.2.min.js"></script>
+	<script type = "text/javascript" src = "js/libs/jquery.validate.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	
+	
+	
+
+</body>
+</html>

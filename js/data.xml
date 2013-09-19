@@ -1,0 +1,47 @@
+<tours>
+	<tour>
+		<name>Tennesee Take Over Tour</name>
+		<sdate>2012-02-14</sdate>
+		<edate>2012-02-20</edate>
+	</tour>
+	<tour>
+		<name>Warped Tour</name>
+		<sdate>2012-05-30</sdate>
+		<edate>2012-08-13</edate>
+	</tour>
+	<tour>
+		<name>The Movies and Pop Tour</name>
+		<sdate>2012-09-13</sdate>
+		<edate>2012-10-17</edate>
+	</tour>
+	<tour>
+		<name>Rocky Horror PicTOUR Show</name>
+		<sdate>2012-10-30</sdate>
+		<edate>2012-11-15</edate>
+	</tour>
+	<tour>
+		<name>Summer Lovin' Tour</name>
+		<sdate>2013-06-02</sdate>
+		<edate>2013-08-13</edate>
+	</tour>
+	<tour>
+		<name>House Party Tour</name>
+		<sdate>2013-09-01</sdate>
+		<edate>2013-11-16</edate>
+	</tour>
+	<tour>
+		<name>Riot Fest</name>
+		<sdate>2014-09-10</sdate>
+		<edate>2014-09-12</edate>
+	</tour>
+	<tour>
+		<name>Honda Civic Tour</name>
+		<sdate>2014-10-01</sdate>
+		<edate>2014-12-15</edate>
+		
+	</tour>
+	<tour>
+		<name>Glamour Kills Tour</name>
+		<sdate>2015-03-21</sdate>
+		<edate>2015-06-06</edate>
+</tours>
